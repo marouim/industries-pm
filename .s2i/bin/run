@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-set -euo pipefail
-
-PORT="${PORT:-8080}"
-echo "--> Serving dist on port ${PORT}"
-npx http-server dist -p "${PORT}" -c-1

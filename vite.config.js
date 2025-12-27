@@ -12,6 +12,8 @@ export default defineConfig({
     }),
   ],
   server: {
+    host: true, // listen on all addresses
+    allowedHosts: true, // allow any hostname (useful behind proxies/containers)
     proxy: {
       '/api/yahoo': {
         target: 'https://query1.finance.yahoo.com',

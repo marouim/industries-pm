@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="jaguarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d72638"/>
+      <stop offset="100%" stop-color="#7a43ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0f1115"/>
+  <path fill="url(#jaguarGrad)" d="M10 26c0-9 9-16 22-16 13 0 22 7 22 16 0 9-8 17-18 20l-5 8-5-8C18 43 10 35 10 26Z"/>
+  <path fill="#f4c430" d="M40 26c0 4-4 7-8 7s-8-3-8-7 3-7 8-7 8 3 8 7Z"/>
+  <path fill="#0f1115" d="M32 23c1 0 2 1 2 2s-1 2-2 2-2-1-2-2 1-2 2-2Zm-8 2c.8 0 1.4.6 1.4 1.4S24.8 28 24 28s-1.4-.6-1.4-1.4S23.2 25 24 25Zm16 0c.8 0 1.4.6 1.4 1.4S40.8 28 40 28s-1.4-.6-1.4-1.4S39.2 25 40 25Z"/>
+</svg>
